@@ -18,6 +18,43 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     NSLog("tmp: \(NSTemporaryDirectory())")
     registerRemoteNotification()
     //根据需求播放语音：
+      let test = ["0",
+                  "0.10",
+                  "0.11",
+                  "0.2221",
+                  "0.00",
+                  "1.21",
+                  "221.21",
+                  "999",
+                  "1314.32",
+                  "12345",
+                  "123456",
+                  "1234567",
+                  "12345678",
+                  "12000",
+                  "120000",
+                  "1200000",
+                  "12000000",
+                  "120000000",
+                  "1200000000",
+                  "12000000000",
+                  "10.00",
+                  "100.00",
+                  "1000.00",
+                  "10000.00",
+                  "100000.00",
+                  "1000000.00",
+                  "10000000.00",
+                  "100000000.00",
+                  "1000000000.00",
+                  "10000000000.00",
+      ]
+      test.forEach { numStr in
+          let res = ApnsHelper.caculateNumber(numStr)
+          print("--------\(numStr): \(String(describing: res))")
+      }
+      
+      
 //    let name = ApnsHelper.makeMp3(55)
 //    postLocalNotification(name)
     return true
