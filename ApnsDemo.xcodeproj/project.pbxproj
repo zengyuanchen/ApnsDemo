@@ -16,62 +16,62 @@
 		41F2EBEE2445429F007898DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41F2EBEC2445429F007898DB /* LaunchScreen.storyboard */; };
 		41F2EBFC244542C3007898DB /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F2EBFB244542C3007898DB /* NotificationService.swift */; };
 		41F2EC00244542C3007898DB /* NotificationService.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 41F2EBF9244542C3007898DB /* NotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		DB250783294B1ED500C760DC /* jqdz_cn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB250782294B1ED500C760DC /* jqdz_cn.mp3 */; };
-		DB250784294B1ED500C760DC /* jqdz_cn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB250782294B1ED500C760DC /* jqdz_cn.mp3 */; };
-		DB25079F294C7A8100C760DC /* 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB250785294C7A7F00C760DC /* 4.mp3 */; };
-		DB2507A0294C7A8100C760DC /* 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB250785294C7A7F00C760DC /* 4.mp3 */; };
-		DB2507A1294C7A8100C760DC /* BTC.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB250786294C7A8000C760DC /* BTC.mp3 */; };
-		DB2507A2294C7A8100C760DC /* BTC.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB250786294C7A8000C760DC /* BTC.mp3 */; };
-		DB2507A3294C7A8100C760DC /* 7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB250787294C7A8000C760DC /* 7.mp3 */; };
-		DB2507A4294C7A8100C760DC /* 7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB250787294C7A8000C760DC /* 7.mp3 */; };
-		DB2507A5294C7A8100C760DC /* 8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB250788294C7A8000C760DC /* 8.mp3 */; };
-		DB2507A6294C7A8100C760DC /* 8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB250788294C7A8000C760DC /* 8.mp3 */; };
-		DB2507A9294C7A8100C760DC /* 点.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB25078A294C7A8000C760DC /* 点.mp3 */; };
-		DB2507AA294C7A8100C760DC /* 点.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB25078A294C7A8000C760DC /* 点.mp3 */; };
-		DB2507AB294C7A8100C760DC /* 9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB25078B294C7A8000C760DC /* 9.mp3 */; };
-		DB2507AC294C7A8100C760DC /* 9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB25078B294C7A8000C760DC /* 9.mp3 */; };
-		DB2507AD294C7A8100C760DC /* TRX.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB25078C294C7A8000C760DC /* TRX.mp3 */; };
-		DB2507AE294C7A8100C760DC /* TRX.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB25078C294C7A8000C760DC /* TRX.mp3 */; };
-		DB2507AF294C7A8100C760DC /* 亿.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB25078D294C7A8000C760DC /* 亿.mp3 */; };
-		DB2507B0294C7A8100C760DC /* 亿.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB25078D294C7A8000C760DC /* 亿.mp3 */; };
-		DB2507B1294C7A8100C760DC /* 十万.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB25078E294C7A8000C760DC /* 十万.mp3 */; };
-		DB2507B2294C7A8100C760DC /* 十万.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB25078E294C7A8000C760DC /* 十万.mp3 */; };
-		DB2507B3294C7A8100C760DC /* 0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB25078F294C7A8000C760DC /* 0.mp3 */; };
-		DB2507B4294C7A8100C760DC /* 0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB25078F294C7A8000C760DC /* 0.mp3 */; };
-		DB2507B5294C7A8100C760DC /* CUST.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB250790294C7A8000C760DC /* CUST.mp3 */; };
-		DB2507B6294C7A8100C760DC /* CUST.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB250790294C7A8000C760DC /* CUST.mp3 */; };
-		DB2507B7294C7A8100C760DC /* 千万.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB250791294C7A8000C760DC /* 千万.mp3 */; };
-		DB2507B8294C7A8100C760DC /* 千万.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB250791294C7A8000C760DC /* 千万.mp3 */; };
-		DB2507B9294C7A8100C760DC /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB250792294C7A8000C760DC /* 2.mp3 */; };
-		DB2507BA294C7A8100C760DC /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB250792294C7A8000C760DC /* 2.mp3 */; };
-		DB2507BB294C7A8100C760DC /* 5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB250793294C7A8000C760DC /* 5.mp3 */; };
-		DB2507BC294C7A8100C760DC /* 5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB250793294C7A8000C760DC /* 5.mp3 */; };
-		DB2507BD294C7A8100C760DC /* 6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB250794294C7A8000C760DC /* 6.mp3 */; };
-		DB2507BE294C7A8100C760DC /* 6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB250794294C7A8000C760DC /* 6.mp3 */; };
-		DB2507BF294C7A8100C760DC /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB250795294C7A8000C760DC /* 3.mp3 */; };
-		DB2507C0294C7A8100C760DC /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB250795294C7A8000C760DC /* 3.mp3 */; };
-		DB2507C1294C7A8100C760DC /* 百.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB250796294C7A8000C760DC /* 百.mp3 */; };
-		DB2507C2294C7A8100C760DC /* 百.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB250796294C7A8000C760DC /* 百.mp3 */; };
-		DB2507C3294C7A8100C760DC /* 千.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB250797294C7A8000C760DC /* 千.mp3 */; };
-		DB2507C4294C7A8100C760DC /* 千.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB250797294C7A8000C760DC /* 千.mp3 */; };
-		DB2507C5294C7A8100C760DC /* 万.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB250798294C7A8000C760DC /* 万.mp3 */; };
-		DB2507C6294C7A8100C760DC /* 万.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB250798294C7A8000C760DC /* 万.mp3 */; };
-		DB2507C7294C7A8100C760DC /* 百万.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB250799294C7A8000C760DC /* 百万.mp3 */; };
-		DB2507C8294C7A8100C760DC /* 百万.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB250799294C7A8000C760DC /* 百万.mp3 */; };
-		DB2507C9294C7A8100C760DC /* ETH.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB25079A294C7A8100C760DC /* ETH.mp3 */; };
-		DB2507CA294C7A8100C760DC /* ETH.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB25079A294C7A8100C760DC /* ETH.mp3 */; };
-		DB2507CB294C7A8100C760DC /* 十.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB25079B294C7A8100C760DC /* 十.mp3 */; };
-		DB2507CC294C7A8100C760DC /* 十.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB25079B294C7A8100C760DC /* 十.mp3 */; };
-		DB2507CD294C7A8100C760DC /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB25079C294C7A8100C760DC /* 1.mp3 */; };
-		DB2507CE294C7A8100C760DC /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB25079C294C7A8100C760DC /* 1.mp3 */; };
-		DB2507CF294C7A8100C760DC /* CNYT.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB25079D294C7A8100C760DC /* CNYT.mp3 */; };
-		DB2507D0294C7A8100C760DC /* CNYT.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB25079D294C7A8100C760DC /* CNYT.mp3 */; };
-		DB2507D529503E3A00C760DC /* ERC20.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB2507D329503E3A00C760DC /* ERC20.mp3 */; };
-		DB2507D629503E3A00C760DC /* ERC20.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB2507D329503E3A00C760DC /* ERC20.mp3 */; };
-		DB2507D729503E3A00C760DC /* TRC20.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB2507D429503E3A00C760DC /* TRC20.mp3 */; };
-		DB2507D829503E3A00C760DC /* TRC20.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB2507D429503E3A00C760DC /* TRC20.mp3 */; };
-		DB2507DD2951B71900C760DC /* jqdz_en.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB2507DC2951B71900C760DC /* jqdz_en.mp3 */; };
-		DB2507DE2951B71900C760DC /* jqdz_en.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB2507DC2951B71900C760DC /* jqdz_en.mp3 */; };
+		DB3E4F6E29696AEA00D2EA79 /* 7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F5229696AEA00D2EA79 /* 7.mp3 */; };
+		DB3E4F6F29696AEA00D2EA79 /* 7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F5229696AEA00D2EA79 /* 7.mp3 */; };
+		DB3E4F7029696AEA00D2EA79 /* 6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F5329696AEA00D2EA79 /* 6.mp3 */; };
+		DB3E4F7129696AEA00D2EA79 /* 6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F5329696AEA00D2EA79 /* 6.mp3 */; };
+		DB3E4F7229696AEA00D2EA79 /* USDT(TRC20).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F5429696AEA00D2EA79 /* USDT(TRC20).mp3 */; };
+		DB3E4F7329696AEA00D2EA79 /* USDT(TRC20).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F5429696AEA00D2EA79 /* USDT(TRC20).mp3 */; };
+		DB3E4F7429696AEA00D2EA79 /* TRX.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F5529696AEA00D2EA79 /* TRX.mp3 */; };
+		DB3E4F7529696AEA00D2EA79 /* TRX.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F5529696AEA00D2EA79 /* TRX.mp3 */; };
+		DB3E4F7629696AEA00D2EA79 /* 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F5629696AEA00D2EA79 /* 4.mp3 */; };
+		DB3E4F7729696AEA00D2EA79 /* 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F5629696AEA00D2EA79 /* 4.mp3 */; };
+		DB3E4F7829696AEA00D2EA79 /* 5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F5729696AEA00D2EA79 /* 5.mp3 */; };
+		DB3E4F7929696AEA00D2EA79 /* 5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F5729696AEA00D2EA79 /* 5.mp3 */; };
+		DB3E4F7A29696AEA00D2EA79 /* BTC.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F5829696AEA00D2EA79 /* BTC.mp3 */; };
+		DB3E4F7B29696AEA00D2EA79 /* BTC.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F5829696AEA00D2EA79 /* BTC.mp3 */; };
+		DB3E4F7C29696AEA00D2EA79 /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F5929696AEA00D2EA79 /* 1.mp3 */; };
+		DB3E4F7D29696AEA00D2EA79 /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F5929696AEA00D2EA79 /* 1.mp3 */; };
+		DB3E4F7E29696AEA00D2EA79 /* 0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F5A29696AEA00D2EA79 /* 0.mp3 */; };
+		DB3E4F7F29696AEA00D2EA79 /* 0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F5A29696AEA00D2EA79 /* 0.mp3 */; };
+		DB3E4F8029696AEA00D2EA79 /* CNYT.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F5B29696AEA00D2EA79 /* CNYT.mp3 */; };
+		DB3E4F8129696AEA00D2EA79 /* CNYT.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F5B29696AEA00D2EA79 /* CNYT.mp3 */; };
+		DB3E4F8229696AEA00D2EA79 /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F5C29696AEA00D2EA79 /* 2.mp3 */; };
+		DB3E4F8329696AEA00D2EA79 /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F5C29696AEA00D2EA79 /* 2.mp3 */; };
+		DB3E4F8429696AEA00D2EA79 /* one_hundred_million.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F5D29696AEA00D2EA79 /* one_hundred_million.mp3 */; };
+		DB3E4F8529696AEA00D2EA79 /* one_hundred_million.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F5D29696AEA00D2EA79 /* one_hundred_million.mp3 */; };
+		DB3E4F8629696AEA00D2EA79 /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F5E29696AEA00D2EA79 /* 3.mp3 */; };
+		DB3E4F8729696AEA00D2EA79 /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F5E29696AEA00D2EA79 /* 3.mp3 */; };
+		DB3E4F8829696AEA00D2EA79 /* jqdz_th.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F5F29696AEA00D2EA79 /* jqdz_th.mp3 */; };
+		DB3E4F8929696AEA00D2EA79 /* jqdz_th.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F5F29696AEA00D2EA79 /* jqdz_th.mp3 */; };
+		DB3E4F8A29696AEA00D2EA79 /* jqdz_km.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F6029696AEA00D2EA79 /* jqdz_km.mp3 */; };
+		DB3E4F8B29696AEA00D2EA79 /* jqdz_km.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F6029696AEA00D2EA79 /* jqdz_km.mp3 */; };
+		DB3E4F8C29696AEA00D2EA79 /* thousand.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F6129696AEA00D2EA79 /* thousand.mp3 */; };
+		DB3E4F8D29696AEA00D2EA79 /* thousand.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F6129696AEA00D2EA79 /* thousand.mp3 */; };
+		DB3E4F8E29696AEA00D2EA79 /* CUST.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F6229696AEA00D2EA79 /* CUST.mp3 */; };
+		DB3E4F8F29696AEA00D2EA79 /* CUST.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F6229696AEA00D2EA79 /* CUST.mp3 */; };
+		DB3E4F9029696AEA00D2EA79 /* ten_thousand.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F6329696AEA00D2EA79 /* ten_thousand.mp3 */; };
+		DB3E4F9129696AEA00D2EA79 /* ten_thousand.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F6329696AEA00D2EA79 /* ten_thousand.mp3 */; };
+		DB3E4F9229696AEA00D2EA79 /* jqdz_en.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F6429696AEA00D2EA79 /* jqdz_en.mp3 */; };
+		DB3E4F9329696AEA00D2EA79 /* jqdz_en.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F6429696AEA00D2EA79 /* jqdz_en.mp3 */; };
+		DB3E4F9429696AEA00D2EA79 /* hundred.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F6529696AEA00D2EA79 /* hundred.mp3 */; };
+		DB3E4F9529696AEA00D2EA79 /* hundred.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F6529696AEA00D2EA79 /* hundred.mp3 */; };
+		DB3E4F9629696AEA00D2EA79 /* ETH.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F6629696AEA00D2EA79 /* ETH.mp3 */; };
+		DB3E4F9729696AEA00D2EA79 /* ETH.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F6629696AEA00D2EA79 /* ETH.mp3 */; };
+		DB3E4F9829696AEA00D2EA79 /* ten.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F6729696AEA00D2EA79 /* ten.mp3 */; };
+		DB3E4F9929696AEA00D2EA79 /* ten.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F6729696AEA00D2EA79 /* ten.mp3 */; };
+		DB3E4F9A29696AEA00D2EA79 /* jqdz_cn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F6829696AEA00D2EA79 /* jqdz_cn.mp3 */; };
+		DB3E4F9B29696AEA00D2EA79 /* jqdz_cn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F6829696AEA00D2EA79 /* jqdz_cn.mp3 */; };
+		DB3E4F9C29696AEA00D2EA79 /* 8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F6929696AEA00D2EA79 /* 8.mp3 */; };
+		DB3E4F9D29696AEA00D2EA79 /* 8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F6929696AEA00D2EA79 /* 8.mp3 */; };
+		DB3E4F9E29696AEA00D2EA79 /* 9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F6A29696AEA00D2EA79 /* 9.mp3 */; };
+		DB3E4F9F29696AEA00D2EA79 /* 9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F6A29696AEA00D2EA79 /* 9.mp3 */; };
+		DB3E4FA029696AEA00D2EA79 /* dot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F6B29696AEA00D2EA79 /* dot.mp3 */; };
+		DB3E4FA129696AEA00D2EA79 /* dot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F6B29696AEA00D2EA79 /* dot.mp3 */; };
+		DB3E4FA229696AEA00D2EA79 /* USDT(ERC20).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F6C29696AEA00D2EA79 /* USDT(ERC20).mp3 */; };
+		DB3E4FA329696AEA00D2EA79 /* USDT(ERC20).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F6C29696AEA00D2EA79 /* USDT(ERC20).mp3 */; };
+		DB3E4FA429696AEA00D2EA79 /* jqdz_vi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F6D29696AEA00D2EA79 /* jqdz_vi.mp3 */; };
+		DB3E4FA529696AEA00D2EA79 /* jqdz_vi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB3E4F6D29696AEA00D2EA79 /* jqdz_vi.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,34 +112,34 @@
 		41F2EBFD244542C3007898DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41F2EC052445463C007898DB /* ApnsDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ApnsDemo.entitlements; sourceTree = "<group>"; };
 		41F2EC0624454649007898DB /* NotificationService.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NotificationService.entitlements; sourceTree = "<group>"; };
-		DB250782294B1ED500C760DC /* jqdz_cn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jqdz_cn.mp3; sourceTree = "<group>"; };
-		DB250785294C7A7F00C760DC /* 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 4.mp3; sourceTree = "<group>"; };
-		DB250786294C7A8000C760DC /* BTC.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BTC.mp3; sourceTree = "<group>"; };
-		DB250787294C7A8000C760DC /* 7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 7.mp3; sourceTree = "<group>"; };
-		DB250788294C7A8000C760DC /* 8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 8.mp3; sourceTree = "<group>"; };
-		DB25078A294C7A8000C760DC /* 点.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "点.mp3"; sourceTree = "<group>"; };
-		DB25078B294C7A8000C760DC /* 9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 9.mp3; sourceTree = "<group>"; };
-		DB25078C294C7A8000C760DC /* TRX.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TRX.mp3; sourceTree = "<group>"; };
-		DB25078D294C7A8000C760DC /* 亿.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "亿.mp3"; sourceTree = "<group>"; };
-		DB25078E294C7A8000C760DC /* 十万.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "十万.mp3"; sourceTree = "<group>"; };
-		DB25078F294C7A8000C760DC /* 0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0.mp3; sourceTree = "<group>"; };
-		DB250790294C7A8000C760DC /* CUST.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CUST.mp3; sourceTree = "<group>"; };
-		DB250791294C7A8000C760DC /* 千万.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "千万.mp3"; sourceTree = "<group>"; };
-		DB250792294C7A8000C760DC /* 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2.mp3; sourceTree = "<group>"; };
-		DB250793294C7A8000C760DC /* 5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 5.mp3; sourceTree = "<group>"; };
-		DB250794294C7A8000C760DC /* 6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 6.mp3; sourceTree = "<group>"; };
-		DB250795294C7A8000C760DC /* 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 3.mp3; sourceTree = "<group>"; };
-		DB250796294C7A8000C760DC /* 百.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "百.mp3"; sourceTree = "<group>"; };
-		DB250797294C7A8000C760DC /* 千.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "千.mp3"; sourceTree = "<group>"; };
-		DB250798294C7A8000C760DC /* 万.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "万.mp3"; sourceTree = "<group>"; };
-		DB250799294C7A8000C760DC /* 百万.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "百万.mp3"; sourceTree = "<group>"; };
-		DB25079A294C7A8100C760DC /* ETH.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ETH.mp3; sourceTree = "<group>"; };
-		DB25079B294C7A8100C760DC /* 十.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "十.mp3"; sourceTree = "<group>"; };
-		DB25079C294C7A8100C760DC /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
-		DB25079D294C7A8100C760DC /* CNYT.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CNYT.mp3; sourceTree = "<group>"; };
-		DB2507D329503E3A00C760DC /* ERC20.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ERC20.mp3; sourceTree = "<group>"; };
-		DB2507D429503E3A00C760DC /* TRC20.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TRC20.mp3; sourceTree = "<group>"; };
-		DB2507DC2951B71900C760DC /* jqdz_en.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jqdz_en.mp3; sourceTree = "<group>"; };
+		DB3E4F5229696AEA00D2EA79 /* 7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 7.mp3; sourceTree = "<group>"; };
+		DB3E4F5329696AEA00D2EA79 /* 6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 6.mp3; sourceTree = "<group>"; };
+		DB3E4F5429696AEA00D2EA79 /* USDT(TRC20).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "USDT(TRC20).mp3"; sourceTree = "<group>"; };
+		DB3E4F5529696AEA00D2EA79 /* TRX.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TRX.mp3; sourceTree = "<group>"; };
+		DB3E4F5629696AEA00D2EA79 /* 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 4.mp3; sourceTree = "<group>"; };
+		DB3E4F5729696AEA00D2EA79 /* 5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 5.mp3; sourceTree = "<group>"; };
+		DB3E4F5829696AEA00D2EA79 /* BTC.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BTC.mp3; sourceTree = "<group>"; };
+		DB3E4F5929696AEA00D2EA79 /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
+		DB3E4F5A29696AEA00D2EA79 /* 0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0.mp3; sourceTree = "<group>"; };
+		DB3E4F5B29696AEA00D2EA79 /* CNYT.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CNYT.mp3; sourceTree = "<group>"; };
+		DB3E4F5C29696AEA00D2EA79 /* 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2.mp3; sourceTree = "<group>"; };
+		DB3E4F5D29696AEA00D2EA79 /* one_hundred_million.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = one_hundred_million.mp3; sourceTree = "<group>"; };
+		DB3E4F5E29696AEA00D2EA79 /* 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 3.mp3; sourceTree = "<group>"; };
+		DB3E4F5F29696AEA00D2EA79 /* jqdz_th.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jqdz_th.mp3; sourceTree = "<group>"; };
+		DB3E4F6029696AEA00D2EA79 /* jqdz_km.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jqdz_km.mp3; sourceTree = "<group>"; };
+		DB3E4F6129696AEA00D2EA79 /* thousand.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thousand.mp3; sourceTree = "<group>"; };
+		DB3E4F6229696AEA00D2EA79 /* CUST.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CUST.mp3; sourceTree = "<group>"; };
+		DB3E4F6329696AEA00D2EA79 /* ten_thousand.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ten_thousand.mp3; sourceTree = "<group>"; };
+		DB3E4F6429696AEA00D2EA79 /* jqdz_en.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jqdz_en.mp3; sourceTree = "<group>"; };
+		DB3E4F6529696AEA00D2EA79 /* hundred.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hundred.mp3; sourceTree = "<group>"; };
+		DB3E4F6629696AEA00D2EA79 /* ETH.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ETH.mp3; sourceTree = "<group>"; };
+		DB3E4F6729696AEA00D2EA79 /* ten.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ten.mp3; sourceTree = "<group>"; };
+		DB3E4F6829696AEA00D2EA79 /* jqdz_cn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jqdz_cn.mp3; sourceTree = "<group>"; };
+		DB3E4F6929696AEA00D2EA79 /* 8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 8.mp3; sourceTree = "<group>"; };
+		DB3E4F6A29696AEA00D2EA79 /* 9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 9.mp3; sourceTree = "<group>"; };
+		DB3E4F6B29696AEA00D2EA79 /* dot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dot.mp3; sourceTree = "<group>"; };
+		DB3E4F6C29696AEA00D2EA79 /* USDT(ERC20).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "USDT(ERC20).mp3"; sourceTree = "<group>"; };
+		DB3E4F6D29696AEA00D2EA79 /* jqdz_vi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jqdz_vi.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,7 +181,7 @@
 		41F2EBE02445429E007898DB /* ApnsDemo */ = {
 			isa = PBXGroup;
 			children = (
-				41F2EC072445481B007898DB /* Resource */,
+				DB3E4F5129696AEA00D2EA79 /* Resource */,
 				41F2EC052445463C007898DB /* ApnsDemo.entitlements */,
 				41F2EBE12445429E007898DB /* AppDelegate.swift */,
 				41F2EBE52445429E007898DB /* ViewController.swift */,
@@ -204,37 +204,37 @@
 			path = NotificationService;
 			sourceTree = "<group>";
 		};
-		41F2EC072445481B007898DB /* Resource */ = {
+		DB3E4F5129696AEA00D2EA79 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				DB250782294B1ED500C760DC /* jqdz_cn.mp3 */,
-				DB2507DC2951B71900C760DC /* jqdz_en.mp3 */,
-				DB25078F294C7A8000C760DC /* 0.mp3 */,
-				DB25079C294C7A8100C760DC /* 1.mp3 */,
-				DB250792294C7A8000C760DC /* 2.mp3 */,
-				DB250795294C7A8000C760DC /* 3.mp3 */,
-				DB250785294C7A7F00C760DC /* 4.mp3 */,
-				DB250793294C7A8000C760DC /* 5.mp3 */,
-				DB250794294C7A8000C760DC /* 6.mp3 */,
-				DB250787294C7A8000C760DC /* 7.mp3 */,
-				DB250788294C7A8000C760DC /* 8.mp3 */,
-				DB25078B294C7A8000C760DC /* 9.mp3 */,
-				DB250796294C7A8000C760DC /* 百.mp3 */,
-				DB250799294C7A8000C760DC /* 百万.mp3 */,
-				DB25078A294C7A8000C760DC /* 点.mp3 */,
-				DB250797294C7A8000C760DC /* 千.mp3 */,
-				DB250791294C7A8000C760DC /* 千万.mp3 */,
-				DB25079B294C7A8100C760DC /* 十.mp3 */,
-				DB25078E294C7A8000C760DC /* 十万.mp3 */,
-				DB250798294C7A8000C760DC /* 万.mp3 */,
-				DB25078D294C7A8000C760DC /* 亿.mp3 */,
-				DB250786294C7A8000C760DC /* BTC.mp3 */,
-				DB25079D294C7A8100C760DC /* CNYT.mp3 */,
-				DB2507D329503E3A00C760DC /* ERC20.mp3 */,
-				DB2507D429503E3A00C760DC /* TRC20.mp3 */,
-				DB250790294C7A8000C760DC /* CUST.mp3 */,
-				DB25079A294C7A8100C760DC /* ETH.mp3 */,
-				DB25078C294C7A8000C760DC /* TRX.mp3 */,
+				DB3E4F5A29696AEA00D2EA79 /* 0.mp3 */,
+				DB3E4F5929696AEA00D2EA79 /* 1.mp3 */,
+				DB3E4F5C29696AEA00D2EA79 /* 2.mp3 */,
+				DB3E4F5E29696AEA00D2EA79 /* 3.mp3 */,
+				DB3E4F5629696AEA00D2EA79 /* 4.mp3 */,
+				DB3E4F5729696AEA00D2EA79 /* 5.mp3 */,
+				DB3E4F5329696AEA00D2EA79 /* 6.mp3 */,
+				DB3E4F5229696AEA00D2EA79 /* 7.mp3 */,
+				DB3E4F6929696AEA00D2EA79 /* 8.mp3 */,
+				DB3E4F6A29696AEA00D2EA79 /* 9.mp3 */,
+				DB3E4F6729696AEA00D2EA79 /* ten.mp3 */,
+				DB3E4F6B29696AEA00D2EA79 /* dot.mp3 */,
+				DB3E4F6529696AEA00D2EA79 /* hundred.mp3 */,
+				DB3E4F6129696AEA00D2EA79 /* thousand.mp3 */,
+				DB3E4F6329696AEA00D2EA79 /* ten_thousand.mp3 */,
+				DB3E4F5D29696AEA00D2EA79 /* one_hundred_million.mp3 */,
+				DB3E4F5529696AEA00D2EA79 /* TRX.mp3 */,
+				DB3E4F5829696AEA00D2EA79 /* BTC.mp3 */,
+				DB3E4F6229696AEA00D2EA79 /* CUST.mp3 */,
+				DB3E4F5B29696AEA00D2EA79 /* CNYT.mp3 */,
+				DB3E4F6629696AEA00D2EA79 /* ETH.mp3 */,
+				DB3E4F5429696AEA00D2EA79 /* USDT(TRC20).mp3 */,
+				DB3E4F6C29696AEA00D2EA79 /* USDT(ERC20).mp3 */,
+				DB3E4F6829696AEA00D2EA79 /* jqdz_cn.mp3 */,
+				DB3E4F6429696AEA00D2EA79 /* jqdz_en.mp3 */,
+				DB3E4F6D29696AEA00D2EA79 /* jqdz_vi.mp3 */,
+				DB3E4F5F29696AEA00D2EA79 /* jqdz_th.mp3 */,
+				DB3E4F6029696AEA00D2EA79 /* jqdz_km.mp3 */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -320,37 +320,37 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB2507C9294C7A8100C760DC /* ETH.mp3 in Resources */,
-				DB2507AB294C7A8100C760DC /* 9.mp3 in Resources */,
-				DB2507A1294C7A8100C760DC /* BTC.mp3 in Resources */,
-				DB2507C3294C7A8100C760DC /* 千.mp3 in Resources */,
-				DB250783294B1ED500C760DC /* jqdz_cn.mp3 in Resources */,
-				DB2507DD2951B71900C760DC /* jqdz_en.mp3 in Resources */,
-				DB2507B3294C7A8100C760DC /* 0.mp3 in Resources */,
-				DB2507C7294C7A8100C760DC /* 百万.mp3 in Resources */,
-				DB2507AD294C7A8100C760DC /* TRX.mp3 in Resources */,
-				DB2507B7294C7A8100C760DC /* 千万.mp3 in Resources */,
-				DB2507B5294C7A8100C760DC /* CUST.mp3 in Resources */,
+				DB3E4F9C29696AEA00D2EA79 /* 8.mp3 in Resources */,
+				DB3E4F7A29696AEA00D2EA79 /* BTC.mp3 in Resources */,
+				DB3E4F7029696AEA00D2EA79 /* 6.mp3 in Resources */,
+				DB3E4F9829696AEA00D2EA79 /* ten.mp3 in Resources */,
+				DB3E4FA029696AEA00D2EA79 /* dot.mp3 in Resources */,
+				DB3E4F8029696AEA00D2EA79 /* CNYT.mp3 in Resources */,
+				DB3E4F9E29696AEA00D2EA79 /* 9.mp3 in Resources */,
+				DB3E4F7E29696AEA00D2EA79 /* 0.mp3 in Resources */,
 				41F2EBEE2445429F007898DB /* LaunchScreen.storyboard in Resources */,
-				DB2507A5294C7A8100C760DC /* 8.mp3 in Resources */,
-				DB2507BD294C7A8100C760DC /* 6.mp3 in Resources */,
-				DB2507CF294C7A8100C760DC /* CNYT.mp3 in Resources */,
-				DB2507BB294C7A8100C760DC /* 5.mp3 in Resources */,
-				DB2507D529503E3A00C760DC /* ERC20.mp3 in Resources */,
-				DB2507C1294C7A8100C760DC /* 百.mp3 in Resources */,
-				DB2507B1294C7A8100C760DC /* 十万.mp3 in Resources */,
-				DB2507CD294C7A8100C760DC /* 1.mp3 in Resources */,
-				DB2507A9294C7A8100C760DC /* 点.mp3 in Resources */,
-				DB2507AF294C7A8100C760DC /* 亿.mp3 in Resources */,
-				DB2507CB294C7A8100C760DC /* 十.mp3 in Resources */,
-				DB2507BF294C7A8100C760DC /* 3.mp3 in Resources */,
-				DB2507C5294C7A8100C760DC /* 万.mp3 in Resources */,
+				DB3E4F7429696AEA00D2EA79 /* TRX.mp3 in Resources */,
+				DB3E4F7829696AEA00D2EA79 /* 5.mp3 in Resources */,
+				DB3E4FA229696AEA00D2EA79 /* USDT(ERC20).mp3 in Resources */,
+				DB3E4F8E29696AEA00D2EA79 /* CUST.mp3 in Resources */,
+				DB3E4F8629696AEA00D2EA79 /* 3.mp3 in Resources */,
+				DB3E4F8829696AEA00D2EA79 /* jqdz_th.mp3 in Resources */,
+				DB3E4F9A29696AEA00D2EA79 /* jqdz_cn.mp3 in Resources */,
+				DB3E4F9629696AEA00D2EA79 /* ETH.mp3 in Resources */,
+				DB3E4F8A29696AEA00D2EA79 /* jqdz_km.mp3 in Resources */,
+				DB3E4F7C29696AEA00D2EA79 /* 1.mp3 in Resources */,
+				DB3E4F9229696AEA00D2EA79 /* jqdz_en.mp3 in Resources */,
+				DB3E4F9429696AEA00D2EA79 /* hundred.mp3 in Resources */,
+				DB3E4F9029696AEA00D2EA79 /* ten_thousand.mp3 in Resources */,
+				DB3E4F7629696AEA00D2EA79 /* 4.mp3 in Resources */,
+				DB3E4F8229696AEA00D2EA79 /* 2.mp3 in Resources */,
 				41F2EBEB2445429F007898DB /* Assets.xcassets in Resources */,
-				DB25079F294C7A8100C760DC /* 4.mp3 in Resources */,
-				DB2507B9294C7A8100C760DC /* 2.mp3 in Resources */,
+				DB3E4F7229696AEA00D2EA79 /* USDT(TRC20).mp3 in Resources */,
+				DB3E4F6E29696AEA00D2EA79 /* 7.mp3 in Resources */,
+				DB3E4F8429696AEA00D2EA79 /* one_hundred_million.mp3 in Resources */,
+				DB3E4F8C29696AEA00D2EA79 /* thousand.mp3 in Resources */,
 				41F2EBE92445429E007898DB /* Main.storyboard in Resources */,
-				DB2507D729503E3A00C760DC /* TRC20.mp3 in Resources */,
-				DB2507A3294C7A8100C760DC /* 7.mp3 in Resources */,
+				DB3E4FA429696AEA00D2EA79 /* jqdz_vi.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,34 +358,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB2507B0294C7A8100C760DC /* 亿.mp3 in Resources */,
-				DB2507AA294C7A8100C760DC /* 点.mp3 in Resources */,
-				DB2507D0294C7A8100C760DC /* CNYT.mp3 in Resources */,
-				DB2507CA294C7A8100C760DC /* ETH.mp3 in Resources */,
-				DB2507A6294C7A8100C760DC /* 8.mp3 in Resources */,
-				DB2507A2294C7A8100C760DC /* BTC.mp3 in Resources */,
-				DB2507B8294C7A8100C760DC /* 千万.mp3 in Resources */,
-				DB2507B6294C7A8100C760DC /* CUST.mp3 in Resources */,
-				DB2507DE2951B71900C760DC /* jqdz_en.mp3 in Resources */,
-				DB2507C2294C7A8100C760DC /* 百.mp3 in Resources */,
-				DB250784294B1ED500C760DC /* jqdz_cn.mp3 in Resources */,
-				DB2507AC294C7A8100C760DC /* 9.mp3 in Resources */,
-				DB2507BC294C7A8100C760DC /* 5.mp3 in Resources */,
-				DB2507A4294C7A8100C760DC /* 7.mp3 in Resources */,
-				DB2507CC294C7A8100C760DC /* 十.mp3 in Resources */,
-				DB2507C8294C7A8100C760DC /* 百万.mp3 in Resources */,
-				DB2507B2294C7A8100C760DC /* 十万.mp3 in Resources */,
-				DB2507C6294C7A8100C760DC /* 万.mp3 in Resources */,
-				DB2507AE294C7A8100C760DC /* TRX.mp3 in Resources */,
-				DB2507C0294C7A8100C760DC /* 3.mp3 in Resources */,
-				DB2507B4294C7A8100C760DC /* 0.mp3 in Resources */,
-				DB2507BA294C7A8100C760DC /* 2.mp3 in Resources */,
-				DB2507BE294C7A8100C760DC /* 6.mp3 in Resources */,
-				DB2507D829503E3A00C760DC /* TRC20.mp3 in Resources */,
-				DB2507C4294C7A8100C760DC /* 千.mp3 in Resources */,
-				DB2507D629503E3A00C760DC /* ERC20.mp3 in Resources */,
-				DB2507A0294C7A8100C760DC /* 4.mp3 in Resources */,
-				DB2507CE294C7A8100C760DC /* 1.mp3 in Resources */,
+				DB3E4FA529696AEA00D2EA79 /* jqdz_vi.mp3 in Resources */,
+				DB3E4F8729696AEA00D2EA79 /* 3.mp3 in Resources */,
+				DB3E4F7D29696AEA00D2EA79 /* 1.mp3 in Resources */,
+				DB3E4F7729696AEA00D2EA79 /* 4.mp3 in Resources */,
+				DB3E4F7F29696AEA00D2EA79 /* 0.mp3 in Resources */,
+				DB3E4F8329696AEA00D2EA79 /* 2.mp3 in Resources */,
+				DB3E4FA129696AEA00D2EA79 /* dot.mp3 in Resources */,
+				DB3E4F7529696AEA00D2EA79 /* TRX.mp3 in Resources */,
+				DB3E4F8D29696AEA00D2EA79 /* thousand.mp3 in Resources */,
+				DB3E4F8B29696AEA00D2EA79 /* jqdz_km.mp3 in Resources */,
+				DB3E4F7129696AEA00D2EA79 /* 6.mp3 in Resources */,
+				DB3E4F7B29696AEA00D2EA79 /* BTC.mp3 in Resources */,
+				DB3E4F7329696AEA00D2EA79 /* USDT(TRC20).mp3 in Resources */,
+				DB3E4F7929696AEA00D2EA79 /* 5.mp3 in Resources */,
+				DB3E4F9B29696AEA00D2EA79 /* jqdz_cn.mp3 in Resources */,
+				DB3E4F8929696AEA00D2EA79 /* jqdz_th.mp3 in Resources */,
+				DB3E4F8F29696AEA00D2EA79 /* CUST.mp3 in Resources */,
+				DB3E4F9729696AEA00D2EA79 /* ETH.mp3 in Resources */,
+				DB3E4F9329696AEA00D2EA79 /* jqdz_en.mp3 in Resources */,
+				DB3E4F9529696AEA00D2EA79 /* hundred.mp3 in Resources */,
+				DB3E4F9129696AEA00D2EA79 /* ten_thousand.mp3 in Resources */,
+				DB3E4F6F29696AEA00D2EA79 /* 7.mp3 in Resources */,
+				DB3E4FA329696AEA00D2EA79 /* USDT(ERC20).mp3 in Resources */,
+				DB3E4F9F29696AEA00D2EA79 /* 9.mp3 in Resources */,
+				DB3E4F9929696AEA00D2EA79 /* ten.mp3 in Resources */,
+				DB3E4F8529696AEA00D2EA79 /* one_hundred_million.mp3 in Resources */,
+				DB3E4F8129696AEA00D2EA79 /* CNYT.mp3 in Resources */,
+				DB3E4F9D29696AEA00D2EA79 /* 8.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

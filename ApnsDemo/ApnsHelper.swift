@@ -37,8 +37,11 @@ struct ApnsHelper {
                                    complete:@escaping (String)->Void) {
         clearFiles(libPath)
         
-        let nums: String = ApnsHelper.caculateNumber(amount)
-        var numsList: [String] = nums.map { String($0) }
+        // 预处理：清除含小数数字的最末尾的连续0
+        let amounteeeee: String = ApnsHelper.cleanAmount(amount)
+        // 将数字转成读音
+        var numsList: [String] = ApnsHelper.caculateNumber(amounteeeee)
+//        var numsList: [String] = nums.map { String($0) }
         // 添加前面的九乾到账
         numsList.insert(prefix, at: numsList.startIndex)
         // 添加后面的币种
@@ -89,13 +92,13 @@ struct ApnsHelper {
     }
     
     // 将金额转成读音
-    static func caculateNumber(_ amountString: String) -> String {
+    static func caculateNumber(_ amountString: String) -> [String] {
         let numberchar = ["0","1","2","3","4","5","6","7","8","9"]
-        let inunitchar = ["","十","百","千"]
-        let unitname = ["","万","亿"]
+        let inunitchar = ["","ten","hundred","thousand"]
+        let unitname = ["","ten_thousand","one_hundred_million"]
         
         let valstr = amountString
-        var prefix = ""
+        var prefix:[String] = []
         
         // 将金额分为整数部分和小数部分
         let splitArray = valstr.components(separatedBy: CharacterSet(charactersIn: "."))
@@ -110,7 +113,7 @@ struct ApnsHelper {
         
         // 处理整数部分
         if head == "0" {
-            prefix = "0"
+            prefix = ["0"]
         } else {
             
             var ch:[Character] = []
@@ -130,7 +133,7 @@ struct ApnsHelper {
                 } else {
                     if zeronum != 0 {
                         if index != 3 {
-                            prefix = prefix.appending("零")
+                            prefix.append("0") // 此处
                         }
                         zeronum = 0
                     }
@@ -138,28 +141,31 @@ struct ApnsHelper {
                         let numIndex = Int(String(ch[ii]))!
                         if numberchar.count > numIndex {
                             let numbercharIndexii = numberchar.index(numberchar.startIndex, offsetBy: numIndex)
-                            prefix = prefix.appending(numberchar[numbercharIndexii])
+                            prefix.append(numberchar[numbercharIndexii])
                         }
                     }
                     
                     if inunitchar.count > index {
                         let inunitcharIndexii = inunitchar.index(inunitchar.startIndex, offsetBy: index)
-                        prefix = prefix.appending(inunitchar[inunitcharIndexii])
+                        prefix.append(inunitchar[inunitcharIndexii])
                     }
                 }
                 if index == 0 && zeronum < 4 {
                     if unitname.count > indexloc {
                         let unitnameIndexii = unitname.index(unitname.startIndex, offsetBy: indexloc)
-                        prefix = prefix.appending(unitname[unitnameIndexii])
+                        prefix.append(unitname[unitnameIndexii])
                     }
                 }
             }
         }
         
         //1十开头的改为十
-        if prefix.hasPrefix("1十") {
-            prefix = prefix.replacingOccurrences(of: "1十", with: "十")
+        if prefix.count >= 2, prefix[0] == "1", prefix[1] == "ten" {
+            prefix.removeFirst()
         }
+//        if prefix.hasPrefix("1十") {
+//            prefix = prefix.replacingOccurrences(of: "1十", with: "十")
+//        }
         
         //处理小数部分
         // 判断小数是否全部是0
@@ -171,7 +177,12 @@ struct ApnsHelper {
             }
         }
         if !isFootAllZero {
-            prefix = prefix.appendingFormat("点%@", foot)
+            prefix.append("dot")
+            for char in foot {
+                prefix.append(String(char))
+            }
+            
+//            prefix = prefix.appendingFormat("点%@", foot)
         }
         
         return prefix
@@ -239,13 +250,13 @@ struct ApnsHelper {
         } else if count < 4 {
             d = 3.8
         } else if count < 5 {
-            d = 3.9
-        } else if count < 6 {
             d = 4.0
-        } else if count < 7 {
+        } else if count < 6 {
             d = 4.1
+        } else if count < 7 {
+            d = 4.3
         } else if count < 8 {
-            d = 4.4
+            d = 4.6
         } else if count < 9 {
             d = 4.9
         } else if count < 10 {
@@ -271,7 +282,33 @@ struct ApnsHelper {
         return d+0.40
     }
     
-    
+    // 预处理：清除含小数数字的最末尾的连续0
+     static func cleanAmount(_ amountString: String) -> String {
+         
+        if amountString.isEmpty ||
+            !amountString.contains(".") {
+            // 整数直接返回
+            return amountString
+        }
+        
+         let characters = Array(amountString)
+         var ch: Array<String> = characters.map { char in
+             String(char)
+         }
+         let from = ch.count-1
+        for i in stride(from: from, through: 0, by: -1) {
+            if ch[i] == "0" {
+                ch.removeLast()
+            } else if (ch[i] == ".") {
+                ch.removeLast()
+                break;
+            } else {
+                break;
+            }
+        }
+        
+        return ch.joined()
+    }
     
     private static func clearFiles(_ libPath: String) {
         var isDir: ObjCBool = false
@@ -295,3 +332,4 @@ struct ApnsHelper {
         return Int(Date().timeIntervalSince1970*1000)
     }
 }
+
